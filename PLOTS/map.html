@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_374aa3e77f7c0f9af48078a731c46646 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_374aa3e77f7c0f9af48078a731c46646" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_374aa3e77f7c0f9af48078a731c46646 = L.map(
+                "map_374aa3e77f7c0f9af48078a731c46646",
+                {
+                    center: [56.0, 12.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac8ee1234133783217e42fe2502f8bef = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_374aa3e77f7c0f9af48078a731c46646);
+        
+    
+            var marker_d164bf4e7afb2105de30d3cc820dde42 = L.marker(
+                [55.5862665852918, 12.288596542328946],
+                {}
+            ).addTo(map_374aa3e77f7c0f9af48078a731c46646);
+        
+    
+        var popup_daa09451fc3ef591588ad94dbac89d25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7219a72771c55994c778c0fb81b0305d = $(`<div id="html_7219a72771c55994c778c0fb81b0305d" style="width: 100.0%; height: 100.0%;">Greve Strand</div>`)[0];
+                popup_daa09451fc3ef591588ad94dbac89d25.setContent(html_7219a72771c55994c778c0fb81b0305d);
+            
+        
+
+        marker_d164bf4e7afb2105de30d3cc820dde42.bindPopup(popup_daa09451fc3ef591588ad94dbac89d25)
+        ;
+
+        
+    
+    
+            var marker_81d99ce392d6851b5b25cd18d2d82b5c = L.marker(
+                [56.184272301536005, 10.22657607633538],
+                {}
+            ).addTo(map_374aa3e77f7c0f9af48078a731c46646);
+        
+    
+        var popup_86664d284f9629c92fdf083e1d1c154b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85067da039b65dc95dcfcfe3e9a73ba7 = $(`<div id="html_85067da039b65dc95dcfcfe3e9a73ba7" style="width: 100.0%; height: 100.0%;">Aarhus</div>`)[0];
+                popup_86664d284f9629c92fdf083e1d1c154b.setContent(html_85067da039b65dc95dcfcfe3e9a73ba7);
+            
+        
+
+        marker_81d99ce392d6851b5b25cd18d2d82b5c.bindPopup(popup_86664d284f9629c92fdf083e1d1c154b)
+        ;
+
+        
+    
+    
+            var marker_95f052e9cc9ae8ff366d8675e1529d8f = L.marker(
+                [55.94629205319111, 12.340206044818812],
+                {}
+            ).addTo(map_374aa3e77f7c0f9af48078a731c46646);
+        
+    
+        var popup_36a17c3f1cc0046d2a36f82768963ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f90a7334233fa86755dfa36db2190312 = $(`<div id="html_f90a7334233fa86755dfa36db2190312" style="width: 100.0%; height: 100.0%;">Hillerød</div>`)[0];
+                popup_36a17c3f1cc0046d2a36f82768963ba2.setContent(html_f90a7334233fa86755dfa36db2190312);
+            
+        
+
+        marker_95f052e9cc9ae8ff366d8675e1529d8f.bindPopup(popup_36a17c3f1cc0046d2a36f82768963ba2)
+        ;
+
+        
+    
+    
+            var marker_2c6563109ce0c041e0389a6cd2116ec7 = L.marker(
+                [55.67501792644796, 12.569689387376348],
+                {}
+            ).addTo(map_374aa3e77f7c0f9af48078a731c46646);
+        
+    
+        var popup_04ef40172b50c000f3acf7df657cda0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6fc5879c7a403e9a85d50bd2451a3a = $(`<div id="html_3d6fc5879c7a403e9a85d50bd2451a3a" style="width: 100.0%; height: 100.0%;">Copenhagen</div>`)[0];
+                popup_04ef40172b50c000f3acf7df657cda0a.setContent(html_3d6fc5879c7a403e9a85d50bd2451a3a);
+            
+        
+
+        marker_2c6563109ce0c041e0389a6cd2116ec7.bindPopup(popup_04ef40172b50c000f3acf7df657cda0a)
+        ;
+
+        
+    
+    
+            var marker_1225e5c687cf867a4cbe0c48c1088e68 = L.marker(
+                [55.69498773141729, 12.08514309456903],
+                {}
+            ).addTo(map_374aa3e77f7c0f9af48078a731c46646);
+        
+    
+        var popup_34d250be7fc7559d3a10c4dac05ae496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97485a1c5e28347c0c908c3d5aaa8ac6 = $(`<div id="html_97485a1c5e28347c0c908c3d5aaa8ac6" style="width: 100.0%; height: 100.0%;">Risø</div>`)[0];
+                popup_34d250be7fc7559d3a10c4dac05ae496.setContent(html_97485a1c5e28347c0c908c3d5aaa8ac6);
+            
+        
+
+        marker_1225e5c687cf867a4cbe0c48c1088e68.bindPopup(popup_34d250be7fc7559d3a10c4dac05ae496)
+        ;
+
+        
+    
+</script>
+</html>
